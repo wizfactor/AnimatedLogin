@@ -20,28 +20,27 @@ body {
 }
 
 #registerButton {
-	/*margin-top: 300px;
-	margin-left: 35%;*/
-
 	top: 300px;
 	left: 35%;
 }
 
 #loginButton {
-	/*margin-top: 300px;
-	margin-right: 35%;*/
-
 	top: 300px;
 	right: 35%;
 }
 
 .inputWindow {
+	position: absolute;
+
 	width: 300px;
-	height: 400px;
+	height: 280px;
 
 	border-radius: 15px;
 
 	background-color: gray;
 
-	margin: 0 auto;
+	top:160px;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
