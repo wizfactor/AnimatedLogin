@@ -1,0 +1,47 @@
+body {
+	background-image:url('../img/space.jpg');
+	background-repeat:repeat;
+}
+
+.mainButton {
+	position: absolute;
+
+	width: 150px;
+	height: 45px;
+	border-radius: 10px;
+
+	background-color: #EEEEEE;
+	color: #282828;
+
+	text-align: center;
+	text-shadow: 1px 1px 0px #FFFFFF;
+	font-family: "Open Sans",sans-serif;
+	font-size: 27px;
+}
+
+#registerButton {
+	/*margin-top: 300px;
+	margin-left: 35%;*/
+
+	top: 300px;
+	left: 35%;
+}
+
+#loginButton {
+	/*margin-top: 300px;
+	margin-right: 35%;*/
+
+	top: 300px;
+	right: 35%;
+}
+
+.inputWindow {
+	width: 300px;
+	height: 400px;
+
+	border-radius: 15px;
+
+	background-color: gray;
+
+	margin: 0 auto;
+}
