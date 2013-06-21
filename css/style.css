@@ -3,6 +3,17 @@ body {
 	background-repeat:repeat;
 }
 
+#mainHeader {
+	color: white;
+
+	font-family: "Helvetica Neue","Arial",sans-serif;
+	font-weight: 200;
+	font-size: 45px;
+
+	text-align: center;
+	margin-top: 170px;
+}
+
 .mainButton {
 	position: absolute;
 
@@ -15,7 +26,7 @@ body {
 
 	text-align: center;
 	text-shadow: 1px 1px 0px #FFFFFF;
-	font-family: "Open Sans",sans-serif;
+	font-family: "Open Sans","Trebuchet MS",sans-serif;
 	font-size: 27px;
 }
 
@@ -37,10 +48,26 @@ body {
 
 	border-radius: 15px;
 
-	background-color: gray;
+	background-color: #BBBBBB;
 
 	top:160px;
 	left: 0;
 	right: 0;
 	margin: auto;
+}
+
+#cancelButton {
+	position: absolute;
+
+	top:150px;
+	left: -300px;
+	right: 0;
+	margin: auto;
+
+	width: 25px;
+	height: 25px;
+
+	background-color: white;
+
+	border-radius: 50px;
 }
